@@ -17,18 +17,19 @@ dependencies {
     //(3)
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.boot:spring-boot-starter-mustache')
-
+    implementation 'org.springframework.boot:spring-boot-devtools'
     // lombok
     implementation('org.projectlombok:lombok')
+    implementation 'junit:junit:4.13.1'
     annotationProcessor('org.projectlombok:lombok')
-    testImplementation('org.projectlombok:lombok')
     testAnnotationProcessor('org.projectlombok:lombok')
 
-    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation("org.mariadb.jdbc:mariadb-java-client")
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation('com.h2database:h2')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation('org.projectlombok:lombok')
 }
 
 test {
