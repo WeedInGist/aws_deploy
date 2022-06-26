@@ -2,7 +2,6 @@ package com.aws_deploy.admin.domain.posts;
 
 import com.aws_deploy.admin.domain.BaseTimeEntity;
 import lombok.Builder;
-import lombok.Generated;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
