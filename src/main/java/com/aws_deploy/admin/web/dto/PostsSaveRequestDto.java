@@ -1,6 +1,6 @@
 package com.aws_deploy.admin.web.dto;
 
-import com.aws_deploy.admin.domain.posts.Posts;
+import com.aws_deploy.admin.web.dto.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package com.aws_deploy.admin.domain.posts;
+package com.aws_deploy.admin.web.dto.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

@@ -1,6 +1,8 @@
 package com.aws_deploy.admin.domain.posts;
 
 
+import com.aws_deploy.admin.web.dto.domain.posts.Posts;
+import com.aws_deploy.admin.web.dto.domain.posts.PostsRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

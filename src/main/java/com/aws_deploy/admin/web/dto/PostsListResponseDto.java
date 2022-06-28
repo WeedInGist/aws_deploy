@@ -1,9 +1,9 @@
 package com.aws_deploy.admin.web.dto;
 
 
-import com.aws_deploy.admin.domain.posts.Posts;
+import com.aws_deploy.admin.web.dto.domain.posts.Posts;
 import lombok.Getter;
-import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDateTime;
 
 @Getter

@@ -1,8 +1,7 @@
 package com.aws_deploy.admin.web;
 
-import com.aws_deploy.admin.domain.posts.Posts;
-import com.aws_deploy.admin.domain.posts.PostsRepository;
-import com.aws_deploy.admin.web.dto.PostsResponseDto;
+import com.aws_deploy.admin.web.dto.domain.posts.Posts;
+import com.aws_deploy.admin.web.dto.domain.posts.PostsRepository;
 import com.aws_deploy.admin.web.dto.PostsSaveRequestDto;
 import com.aws_deploy.admin.web.dto.PostsUpdateRequestDto;
 import com.fasterxml.jackson.databind.ObjectMapper;

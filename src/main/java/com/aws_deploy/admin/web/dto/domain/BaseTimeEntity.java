@@ -1,4 +1,4 @@
-package com.aws_deploy.admin.domain;
+package com.aws_deploy.admin.web.dto.domain;
 
 
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.aws_deploy.admin.domain.user;
+package com.aws_deploy.admin.web.dto.domain.user;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;

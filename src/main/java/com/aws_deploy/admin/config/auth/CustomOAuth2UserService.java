@@ -1,8 +1,8 @@
 package com.aws_deploy.admin.config.auth;
 
 import com.aws_deploy.admin.config.auth.dto.SessionUser;
-import com.aws_deploy.admin.domain.user.User;
-import com.aws_deploy.admin.domain.user.UserRepository;
+import com.aws_deploy.admin.web.dto.domain.user.User;
+import com.aws_deploy.admin.web.dto.domain.user.UserRepository;
 import com.aws_deploy.admin.config.auth.dto.OAuthAttributes;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

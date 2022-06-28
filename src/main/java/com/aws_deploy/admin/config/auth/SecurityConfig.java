@@ -1,6 +1,6 @@
 package com.aws_deploy.admin.config.auth;
 
-import com.aws_deploy.admin.domain.user.Role;
+import com.aws_deploy.admin.web.dto.domain.user.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;

@@ -1,7 +1,7 @@
 package com.aws_deploy.admin.config.auth.dto;
 
-import com.aws_deploy.admin.domain.user.Role;
-import com.aws_deploy.admin.domain.user.User;
+import com.aws_deploy.admin.web.dto.domain.user.Role;
+import com.aws_deploy.admin.web.dto.domain.user.User;
 import lombok.Builder;
 import lombok.Getter;
 

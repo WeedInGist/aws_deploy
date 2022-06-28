@@ -1,8 +1,8 @@
 package com.aws_deploy.admin.service.posts;
 
 
-import com.aws_deploy.admin.domain.posts.Posts;
-import com.aws_deploy.admin.domain.posts.PostsRepository;
+import com.aws_deploy.admin.web.dto.domain.posts.Posts;
+import com.aws_deploy.admin.web.dto.domain.posts.PostsRepository;
 import com.aws_deploy.admin.web.dto.PostsListResponseDto;
 import com.aws_deploy.admin.web.dto.PostsResponseDto;
 import com.aws_deploy.admin.web.dto.PostsSaveRequestDto;

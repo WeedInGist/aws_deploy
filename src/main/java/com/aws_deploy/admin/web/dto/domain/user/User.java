@@ -1,6 +1,6 @@
-package com.aws_deploy.admin.domain.user;
+package com.aws_deploy.admin.web.dto.domain.user;
 
-import com.aws_deploy.admin.domain.BaseTimeEntity;
+import com.aws_deploy.admin.web.dto.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
